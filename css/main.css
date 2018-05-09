@@ -1,0 +1,326 @@
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1.125px;
+}
+
+h1, footer {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2rem;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.top-bar {
+	background-color: #4a7c68;
+	height: 60px;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #4a7c68;
+	font-family: 'Quicksand', sans-serif;
+	line-height: 60px;
+	font-size: .8rem;
+	letter-spacing: 1px;
+
+}
+.top-bar .name h1 {
+	line-height: 60px;
+	font-size: 1.2rem;
+}
+
+.top-bar .name img {
+	line-height: 60px;
+}
+
+
+header {
+	position: relative;
+	font-size: 4.5rem;
+}
+
+header img {
+	float: left;
+	height: 55px;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+.orbit-container {
+	background-color: #2f4f43;
+}
+
+.orbit-caption h1 {
+	font-weight: 400;
+	font-size: 3.5rem;
+	text-shadow: 0 0 40px rgba(0,0,0,.8);
+	line-height: 60px;
+	padding-right: 40px;
+}
+
+.orbit-container .orbit-slides-container > * .orbit-caption{
+	background-color: transparent;
+}
+
+.hero {
+	margin: 0;
+	position: relative;
+}
+
+.hero .orbit-caption {
+	position: absolute;
+	top:15%;
+	right:0;
+	width: 100%;
+	text-align: right;
+	color: #fff;
+}
+
+.active h1 {
+	color: #fff;
+}
+
+
+/*FIRST SECTION: FEATURES*/
+.features {
+	background-color: #2f4f43;
+	max-width: none;
+	padding-bottom: 40px; 
+}
+
+.features h1  {
+	font-size: 2.5rem;
+	color: #fff;
+}
+
+.features p {
+	color: #b2b2b2;
+}
+
+.features img{
+	margin-top: 1rem;
+}
+	
+.fitness, .spa, .restaurant {
+	padding: 3rem 0;
+}
+
+.box {
+	padding: .5rem;
+	margin-top: 1rem;
+	color: #fff;
+}
+
+.box h2 {
+	color: #fff;
+/*	letter-spacing: 1px;*/
+}
+
+.box p  {
+	color: #b2b2b2;
+}
+
+.fit .column {
+	max-width: none;
+	padding: 0;
+	position: relative;
+}
+
+.fit .row {
+	max-width: none;
+	padding: 0;
+	position: relative;
+}
+
+
+/*SECOND SECTION: POOL/BEACH */
+.pool {
+	background-color: #2f4f43;
+	padding: 3rem 0;
+	margin:0;
+	padding: 0;
+	position: relative;
+}
+
+.four {
+	background-color: rgba(47,79,67,.8);
+	overflow: hidden;
+}
+
+.beachimages {
+	opacity: .3;
+	float: left;
+}
+
+.waterimages {
+	opacity: .9;
+	float: left;
+}
+
+.caption h2 {
+	position: absolute;
+	top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.four .row {
+	max-width: none;
+	padding: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.four .column {
+	max-width: none;
+	padding: 0;
+	position: relative;
+
+}
+
+.outside {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #c1c1c1;
+}
+
+.outside h1 {
+	color: #fff;
+}
+
+
+
+/*THIRD SECTION: RESERVE YOUR STAY*/
+.reserve {
+	padding: 3rem 0;
+	background-color: #2f4f43;
+	background: url('../img/book5.jpg');
+	background-size: cover;
+	border-top:30px solid;
+	border-color: #2f4f43;
+}
+
+table thead tr th {
+	background-color: #4a7c68;
+	color: #a1a1a1;
+	line-height: 2rem;
+}
+
+table {
+	-webkit-border-horizontal-spacing: 0px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+.reserve h1, .reserve p, .reserve h2 {
+	color: #2f4f43;
+}
+
+.reserve p {
+	padding-bottom: 20px;
+}
+
+.reveal-modal {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: url('../img/cheers1.jpg');
+	padding-top: 40px;
+	color: #2f4f43;
+	background-size: cover;
+}
+
+.button {
+	background-color: #888;
+	border: 2px solid #fff;
+	margin-top: 15px;
+}
+
+.reveal-modal-bg {
+	background: rgba(0,0,0,.6);
+}
+
+.button:hover {
+
+	background-color: #464646;
+}
+
+
+.info {
+	padding-top: 20px;
+
+}
+
+.confirmation {
+	padding-top: 40%;
+	font-size: .3rem;
+	color: #fff;
+}
+
+.reveal-modal h2 {
+	color: #fff;
+}
+
+.reveal-modal .lead {
+	color: #fff;
+}
+
+.reveal-modal {
+
+	text-align: right;
+}
+
+
+/*LAST SECTION: FOOTER*/
+footer {
+	background-color: #4a7c68;
+	color: #fff;
+	overflow: hidden;
+	padding: 20px 0;
+	letter-spacing: 1px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.svg-inline--fa {
+	font-size: 1rem;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.copyright {
+	text-align: right;
+}
+
+footer .row {
+	max-width: none;
+	padding: 0;
+}
+
+footer .column {
+	max-width: none;
+	padding: 0, 10px;
+
+}
+
+footer a:hover {
+	color: #fff;
+}
+
+
+/*
+NOTES
+max-width: none;
+padding: 0;*/
